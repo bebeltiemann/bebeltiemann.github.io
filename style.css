@@ -56,4 +56,5 @@ align-items: center;
     display: grid;
     place-items:center;
     text-decoration: none;
+    color: #0e37f0;
 }
