@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(28, 183, 255);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio {
+    display: flex;
+height:100vh;
+}
+.foto{
+    flex: 1;
+background-color: rgb(32, 167, 190);
+display: flex;
+justify-content: center;
+}
+.foto img{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
