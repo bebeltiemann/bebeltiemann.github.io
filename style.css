@@ -63,3 +63,8 @@ align-items: center;
     padding: 0.39rem;
     text-align: center;
 }
+
+.social a:hover{
+    color:white;
+    background-color:rgb(118, 108, 204) ;
+}
