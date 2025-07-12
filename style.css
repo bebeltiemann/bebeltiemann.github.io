@@ -10,7 +10,7 @@ height:100vh;
 }
 .foto{
     flex: 1;
-background-color: rgb(32, 167, 190);
+background-color: rgb(28, 183, 255);
 display: flex;
 justify-content: center;
 }
