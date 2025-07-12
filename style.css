@@ -6,173 +6,213 @@ body {
 
 .inicio {
     display: flex;
-height:100vh;
+    height: 100vh;
 }
-.foto{
+
+.foto {
     flex: 1;
-background-color: rgb(28, 183, 255);
-display: flex;
-justify-content: center;
-align-items: center;
+    background-color: rgb(28, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.foto img{
-    width: 800px;
-    height: 800px;
+
+.foto img {
+    width: 100vh;
+    height: 100vh;
     border-radius: 8px;
 }
-.infos{
-    flex: 2 ;
+
+.infos {
+    flex: 2;
     padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.infos h1{
+.infos h1 {
     font-size: 48px;
     margin: 0;
-    color: rgba(223, 17, 17, 0.911);
+    color: rgba(255, 255, 255, 0.911);
 }
 
-.infos h2{
-    font-size:24px ; 
-    margin-top:10px;
-    color:rgb(0, 0, 0);
+.infos h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
 
-.infos p{
-    font-size:18px;
-    margin:10px 0;
+.infos p {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.social{
-   
+.social {
+
     display: flex;
     flex-wrap: wrap;
     gap: 1.4rem;
 }
 
-.social a{
+.social a {
     display: grid;
-    place-items:center;
+    place-items: center;
     text-decoration: none;
     color: #000000;
-    border:1.6px solid #000000;
-    font-size:1.5rem;
+    border: 1.6px solid #000000;
+    font-size: 1.5rem;
     border-radius: 50%;
     padding: 0.39rem;
     text-align: center;
 }
 
-.social a:hover{
-    color:white;
-    background-color:rgb(118, 108, 204) ;
+.social a:hover {
+    color: white;
+    background-color: rgb(118, 108, 204);
 }
 
-footer p{
-margin:0;
-font-family: 'Courier New',Courier, monospace;
-font-size: 16px;
+footer p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
 /* Estilos para a parte das seções "Sobre mim" e "Habilidades" */
 .sobre {
-  display: flex; /* Faz com que as seções (.sobre-mim e .habilidades) fiquem lado a lado */
-  flex-wrap: wrap; /* Permite que as seções quebrem para a próxima linha em telas menores */
-  background-color:  rgb(28, 183, 255); /* Define a cor de fundo como branco */
-  padding: 60px 80px; /* Adiciona espaçamento interno: 60px em cima/baixo, 80px nas laterais */
-  gap: 40px; /* Adiciona um espaçamento de 40 pixels entre as seções */
+    display: flex;
+    /* Faz com que as seções (.sobre-mim e .habilidades) fiquem lado a lado */
+    flex-wrap: wrap;
+    /* Permite que as seções quebrem para a próxima linha em telas menores */
+    background-color: rgb(28, 183, 255);
+    /* Define a cor de fundo como branco */
+    padding: 60px 80px;
+    /* Adiciona espaçamento interno: 60px em cima/baixo, 80px nas laterais */
+    gap: 40px;
+    /* Adiciona um espaçamento de 40 pixels entre as seções */
 }
 
 /* Estilos para o parágrafo dentro da seção "Sobre mim" */
 .sobre-mim p {
-  font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
-  line-height: 1.6; /* Define o espaçamento entre as linhas de texto (1.6 vezes o tamanho da fonte) */
-  max-width: 90%; /* Limita a largura do parágrafo a 90% do espaço disponível */
+    font-size: 18px;
+    /* Define o tamanho da fonte como 18 pixels */
+    line-height: 1.6;
+    /* Define o espaçamento entre as linhas de texto (1.6 vezes o tamanho da fonte) */
+    max-width: 90%;
+    /* Limita a largura do parágrafo a 90% do espaço disponível */
 }
 
 /* Estilos para a linha divisória abaixo dos títulos das seções */
 .linha {
-  width: 60px; /* Define a largura da linha como 60 pixels */
-  height: 4px; /* Define a altura da linha como 4 pixels */
-  background-color: black; /* Define a cor de fundo da linha como preto */
-  margin-bottom: 20px; /* Adiciona uma margem de 20 pixels abaixo da linha */
-  border-radius: 2px; /* Arredonda levemente os cantos da linha */
+    width: 60px;
+    /* Define a largura da linha como 60 pixels */
+    height: 4px;
+    /* Define a altura da linha como 4 pixels */
+    background-color: black;
+    /* Define a cor de fundo da linha como preto */
+    margin-bottom: 20px;
+    /* Adiciona uma margem de 20 pixels abaixo da linha */
+    border-radius: 2px;
+    /* Arredonda levemente os cantos da linha */
 }
 
 /* Estilos para as seções "Sobre mim" e "Habilidades" */
-.sobre-mim, .habilidades {
-  flex: 1; /* Permite que cada seção ocupe 1 parte do espaço disponível */
-  min-width: 300px; /* Define uma largura mínima de 300 pixels para evitar que fiquem muito pequenas */
+.sobre-mim,
+.habilidades {
+    flex: 1;
+    /* Permite que cada seção ocupe 1 parte do espaço disponível */
+    min-width: 300px;
+    /* Define uma largura mínima de 300 pixels para evitar que fiquem muito pequenas */
 }
 
 /* Estilos para os títulos h2 dentro das seções "Sobre mim" e "Habilidades" */
-.sobre-mim h2, .habilidades h2 {
-  font-size: 32px; /* Define o tamanho da fonte como 32 pixels */
-  color: gray; /* Define a cor do texto como cinza */
-  margin-bottom: 10px; /* Adiciona uma margem de 10 pixels abaixo do título */
+.sobre-mim h2,
+.habilidades h2 {
+    font-size: 32px;
+    /* Define o tamanho da fonte como 32 pixels */
+    color: gray;
+    /* Define a cor do texto como cinza */
+    margin-bottom: 10px;
+    /* Adiciona uma margem de 10 pixels abaixo do título */
 }
 
 /* Estilos para a lista de habilidades */
 .habilidades ul {
-  list-style: none; /* Remove os marcadores de lista padrão (as bolinhas) */
-  padding-left: 0; /* Remove o preenchimento esquerdo padrão da lista */
+    list-style: none;
+    /* Remove os marcadores de lista padrão (as bolinhas) */
+    padding-left: 0;
+    /* Remove o preenchimento esquerdo padrão da lista */
 }
 
 /* Estilos para cada item da lista de habilidades */
 .habilidades li {
-  font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
-  margin-bottom: 12px; /* Adiciona uma margem de 12 pixels abaixo de cada item */
-  padding-left: 20px; /* Adiciona um preenchimento esquerdo para o texto (para dar espaço ao check) */
-  position: relative; /* Define a posição relativa para que o pseudo-elemento "::before" possa ser posicionado dentro dele */
+    font-size: 18px;
+    /* Define o tamanho da fonte como 18 pixels */
+    margin-bottom: 12px;
+    /* Adiciona uma margem de 12 pixels abaixo de cada item */
+    padding-left: 20px;
+    /* Adiciona um preenchimento esquerdo para o texto (para dar espaço ao check) */
+    position: relative;
+    /* Define a posição relativa para que o pseudo-elemento "::before" possa ser posicionado dentro dele */
 }
 
 /* Estilos para o marcador de check (✔) antes de cada item de habilidade */
 .habilidades li::before {
-  content: "✔"; /* Insere o caractere de check (✔) antes do texto */
-  position: absolute; /* Posiciona o check de forma absoluta em relação ao seu pai (.habilidades li) */
-  left: 0; /* Alinha o check na borda esquerda do item */
-  color: rgb(33, 160, 54); /* Define a cor do check como preto */
+    content: "✔";
+    /* Insere o caractere de check (✔) antes do texto */
+    position: absolute;
+    /* Posiciona o check de forma absoluta em relação ao seu pai (.habilidades li) */
+    left: 0;
+    /* Alinha o check na borda esquerda do item */
+    color: rgb(33, 160, 54);
+    /* Define a cor do check como preto */
 }
 
 /* --- Media Queries: Estilos para telas menores (smartphones e tablets) --- */
 /* Estes estilos só serão aplicados quando a largura da tela for no máximo 768 pixels */
 @media (max-width: 768px) {
-  /* Faz com que estes contêineres se organizem em coluna (um abaixo do outro) */
-  .inicio {
-    flex-direction: column; /* Muda a direção dos itens flexíveis para coluna */
-    padding: 40px 20px; /* Reduz o espaçamento interno para se ajustar a telas menores */
-  }
 
-  /* Ajusta a largura da imagem de início para telas menores */
-  .inicio img {
-    width: 100%; /* Faz a imagem ocupar 100% da largura disponível */
-    max-width: 250px; /* Limita a largura máxima da imagem a 250 pixels */
-  }
+    /* Faz com que estes contêineres se organizem em coluna (um abaixo do outro) */
+    .inicio {
+        flex-direction: column;
+        /* Muda a direção dos itens flexíveis para coluna */
+        padding: 40px 20px;
+        /* Reduz o espaçamento interno para se ajustar a telas menores */
+    }
 
-  /* Muda a cor de fundo da seção de início em telas menores (do cinza para #F4DECB) */
-  .inicio{
-      background-color: #F4DECB;
-  }
+    /* Ajusta a largura da imagem de início para telas menores */
+    .inicio img {
+        width: 100%;
+        /* Faz a imagem ocupar 100% da largura disponível */
+        max-width: 250px;
+        /* Limita a largura máxima da imagem a 250 pixels */
+    }
 
-  /* Reduz o espaçamento interno destas seções em telas menores */
-  .infos {
-    padding: 20px 0; /* 20px em cima/baixo, 0 nas laterais */
-  }
+    /* Muda a cor de fundo da seção de início em telas menores (do cinza para #F4DECB) */
+    .inicio {
+        background-color: #F4DECB;
+    }
 
-  /* Reduz o tamanho da fonte do título principal em telas menores */
-  .infos h1 {
-    font-size: 32px;
-  }
+    /* Reduz o espaçamento interno destas seções em telas menores */
+    .infos {
+        padding: 20px 0;
+        /* 20px em cima/baixo, 0 nas laterais */
+    }
 
-  /* Reduz o tamanho da fonte do subtítulo em telas menores */
-  .infos h2 {
-    font-size: 20px;
-  }
+    /* Reduz o tamanho da fonte do título principal em telas menores */
+    .infos h1 {
+        font-size: 32px;
+    }
+
+    /* Reduz o tamanho da fonte do subtítulo em telas menores */
+    .infos h2 {
+        font-size: 20px;
+    }
 
 
-  /* Ajusta a altura do contêiner principal para telas menores */
-  .inicio {
-    height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
-  }
+    /* Ajusta a altura do contêiner principal para telas menores */
+    .inicio {
+        height: auto;
+        /* Permite que a altura se ajuste automaticamente ao conteúdo */
+    }
 }
